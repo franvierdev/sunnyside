@@ -24,7 +24,7 @@ export default function Hero({ fraunces }) {
           width={36}
           height={144}
           alt="arrow-down"
-          className="mx-auto mt-16  lg:mt-24"
+          className="mx-auto mt-16 lg:mt-24"
         />
       </div>
     </section>
