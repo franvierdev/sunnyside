@@ -49,8 +49,8 @@ export default function Testimonials({ fraunces, barlow }: any) {
               barlow.className + " text-[hsl(213,9%,39%)] text-lg px-12"
             }
           >
-            Sunnyside's enthusiasm coupled with their keen interest in our
-            brand's success made it a satisfying and enjoyable experience.
+            Sunnyside&apos; s enthusiasm coupled with their keen interest in our
+            brand&apos;s success made it a satisfying and enjoyable experience.
           </p>
           <div>
             <p className={fraunces.className + " font-extrabold text-lg"}>

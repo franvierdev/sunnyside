@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function Header({ barlow, fraunces }) {
+export default function Header({ barlow, fraunces }: any) {
   return (
     <header className="   relative z-10    ">
       <div className="fixed flex justify-between max-sm:py-8 ps-7 lg:p-10 lg:pt-12 max-lg:w-[375px] lg:w-[1440px] bg-[#3DBEFD]">

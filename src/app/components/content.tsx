@@ -58,8 +58,8 @@ export default function Content({ barlow, fraunces }: any) {
         </h2>
         <p className="text-[hsl(210,4%,67%)]">
           Using a collaborative formula of designers, researchers,
-          photographers, videographers,and copywriters, we'll build and extend
-          your brand in digital places.
+          photographers, videographers,and copywriters, we&apos;ll build and
+          extend your brand in digital places.
         </p>
         <a
           href="#"
@@ -90,7 +90,7 @@ export default function Content({ barlow, fraunces }: any) {
           </h3>
           <p className={barlow.className + " font-semibold"}>
             Great design makes you memorable. We deliver artwork that
-            underscores your brand message and captures potential clients'
+            underscores your brand message and captures potential clients&apos;
             attention.
           </p>
         </div>
