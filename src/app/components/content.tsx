@@ -16,7 +16,7 @@ export default function Content({ barlow, fraunces }: any) {
         <h2
           className={
             fraunces.className +
-            " font-extrabold text-3xl lg:text-4xl lg:pe-12 text-gray-800 "
+            " font-extrabold text-3xl lg:text-4xl lg:pe-12 max-lg:tracking-tight text-gray-800 "
           }
         >
           Transform your brand
@@ -64,25 +64,29 @@ export default function Content({ barlow, fraunces }: any) {
       <div className="max-sm:w-[375px] flex flex-col gap-10 lg:gap-12 max-lg:py-16 lg:pt-44 px-6 lg:px-20 lg:ms-20 tracking-wider max-lg:text-center  ">
         <h2
           className={
-            fraunces.className + " font-extrabold text-4xl pe-12 text-gray-800 "
+            fraunces.className +
+            " font-extrabold max-lg:text-3xl lg:text-4xl max-lg:px-2 lg:pe-12 text-gray-800 max-lg:tracking-tight "
           }
         >
           Stand out to the right audience
         </h2>
-        <p className="text-[hsl(210,4%,67%)]">
+        <p className="text-[hsl(210,4%,67%)] max-lg:text-sm max-lg:px-2">
           Using a collaborative formula of designers, researchers,
           photographers, videographers,and copywriters, we&apos;ll build and
           extend your brand in digital places.
         </p>
         <a
           href="#"
-          className={fraunces.className + " under-red font-extrabold w-40"}
+          className={
+            fraunces.className +
+            " max-lg:self-center under-red font-extrabold w-40"
+          }
         >
           LEARN MORE
         </a>
       </div>
 
-      <div className="text-center">
+      <div className=" text-center">
         <Image
           src="/desktop/image-graphic-design.jpg"
           width={720}
@@ -97,7 +101,7 @@ export default function Content({ barlow, fraunces }: any) {
           alt="cerezas"
           className="sm:hidden"
         />
-        <div className=" relative -mt-48 px-48 gap-6 text-[hsl(167,40%,24%)] flex flex-col">
+        <div className=" max-lg:pb-16 -mt-52 lg:px-48 gap-6 text-[hsl(167,40%,24%)] flex flex-col">
           <h3 className={fraunces.className + " text-3xl font-extrabold"}>
             Graphic Design
           </h3>
@@ -123,11 +127,11 @@ export default function Content({ barlow, fraunces }: any) {
           alt="naranja"
           className="sm:hidden"
         />
-        <div className=" relative -mt-48 px-48 gap-6 text-[hsl(198,62%,26%)] flex flex-col">
+        <div className=" -mt-52 lg:px-48 gap-6 text-[hsl(198,62%,26%)] flex flex-col">
           <h3 className={fraunces.className + " text-3xl font-extrabold"}>
-            Graphic Design
+            Photography
           </h3>
-          <p className={barlow.className + " font-semibold"}>
+          <p className={barlow.className + " font-semibold max-lg:px-2"}>
             Increase you credibility by getting the most stunning. high-quality
             photos that improve your business image.
           </p>

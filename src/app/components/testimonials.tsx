@@ -2,18 +2,18 @@ import Image from "next/image";
 
 export default function Testimonials({ fraunces, barlow }: any) {
   return (
-    <div className=" mt-16 pt-40 pb-20 text-center">
+    <div className=" lg:mt-16 pt-40  lg:pb-20 text-center">
       <h2
         className={
           fraunces.className +
           " " +
-          "text-xl tracking-[0.25em] text-[hsl(210,4%,67%)] font-extrabold"
+          "lg:text-xl tracking-[0.25em] text-[hsl(210,4%,67%)] font-extrabold"
         }
       >
         CLIENT TESTIMONIALS
       </h2>
-      <div className="flex mx-36 max-sm:flex-col ">
-        <div className="flex flex-col items-center py-20 gap-14 ">
+      <div className="flex mx-6 lg:mx-36 max-sm:flex-col ">
+        <div className="flex flex-col items-center py-14 lg:py-20 gap-8 lg:gap-14 ">
           <Image
             src="/image-emily.jpg"
             width={144 / 2}
@@ -36,7 +36,7 @@ export default function Testimonials({ fraunces, barlow }: any) {
             </p>
           </div>
         </div>
-        <div className="flex flex-col items-center py-20 gap-14 ">
+        <div className="flex flex-col items-center py-14 lg:py-20 gap-8 lg:gap-14 ">
           <Image
             src="/image-thomas.jpg"
             width={144 / 2}
@@ -46,7 +46,7 @@ export default function Testimonials({ fraunces, barlow }: any) {
           ></Image>
           <p
             className={
-              barlow.className + " text-[hsl(213,9%,39%)] text-lg px-12"
+              barlow.className + " text-[hsl(213,9%,39%)] text-lg lg:px-12"
             }
           >
             Sunnyside&apos; s enthusiasm coupled with their keen interest in our
