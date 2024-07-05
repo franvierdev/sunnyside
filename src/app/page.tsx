@@ -14,9 +14,9 @@ const fraunces = Fraunces({
 
 export default function Home() {
   return (
-    <main className="container  max-lg:w-[375px] lg:max-w-[1440px] mx-auto">
+    <main className="  max-lg:w-[375px] lg:max-w-[1440px] mx-auto">
       <Header fraunces={fraunces} barlow={barlow} />
-      <Hero fraunces={fraunces} ñ={barlow} />
+      <Hero fraunces={fraunces} />
       <Content fraunces={fraunces} barlow={barlow} />
       <Testimonials fraunces={fraunces} barlow={barlow} />
       <Gallery />

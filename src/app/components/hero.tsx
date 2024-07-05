@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function Hero({ fraunces }) {
+export default function Hero({ fraunces }: any) {
   return (
     <section className={" max-lg:w-[375px] text-center -z-10"}>
       <Image
@@ -21,10 +21,10 @@ export default function Hero({ fraunces }) {
         <h1 className={fraunces.className}>WE ARE CREATIVES</h1>
         <Image
           src="/icon-arrow-down.svg"
-          width={36}
-          height={144}
+          width="0"
+          height="0"
           alt="arrow-down"
-          className="mx-auto mt-16 lg:mt-24"
+          className="mx-auto mt-16 lg:mt-24 h-auto w-9"
         />
       </div>
     </section>

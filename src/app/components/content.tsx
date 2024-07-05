@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function Content({ barlow, fraunces }) {
+export default function Content({ barlow, fraunces }: any) {
   return (
     <div className=" flex flex-col  lg:grid lg:grid-cols-2 ">
       <div className=" max-sm:w-[375px] flex flex-col gap-10 lg:gap-12 pt-36 lg:pt-44 px-12 lg:px-20 lg:ms-20 tracking-wider ">
