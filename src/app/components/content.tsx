@@ -45,7 +45,14 @@ export default function Content({ barlow, fraunces }: any) {
           width={720}
           height={600}
           alt="copa"
-          className="max-sm:max-w-sm "
+          className="max-lg:hidden "
+        />
+        <Image
+          src="/mobile/image-stand-out.jpg"
+          width={750 / 2}
+          height={624 / 2}
+          alt="copa"
+          className="lg:hidden "
         />
       </div>
       <div className="max-sm:w-[375px] flex flex-col gap-12 pt-44  ps-32 me-28 tracking-wider ">
