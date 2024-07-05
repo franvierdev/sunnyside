@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Testimonials({ fraunces, barlow }: any) {
   return (
-    <div className="container  mt-16 pt-40 pb-20 text-center">
+    <div className=" mt-16 pt-40 pb-20 text-center">
       <h2
         className={
           fraunces.className +
