@@ -3,40 +3,46 @@ import Image from "next/image";
 export default function Content({ barlow, fraunces }: any) {
   return (
     <div className=" flex flex-col  lg:grid lg:grid-cols-2 ">
-      <div className=" max-sm:w-[375px] flex flex-col gap-10 lg:gap-12 pt-36 lg:pt-44 px-12 lg:px-20 lg:ms-20 tracking-wider ">
+      <div className="lg:hidden">
+        <Image
+          src="/mobile/image-transform.jpg"
+          width={750 / 2}
+          height={624 / 2}
+          alt="vohue"
+          className=""
+        />
+      </div>
+      <div className=" max-sm:w-[375px] flex flex-col gap-10 lg:gap-12 max-lg:py-16 lg:pt-44 px-6 lg:px-20 lg:ms-20 tracking-wider max-lg:text-center ">
         <h2
           className={
-            fraunces.className + " font-extrabold text-4xl pe-12 text-gray-800 "
+            fraunces.className +
+            " font-extrabold text-3xl lg:text-4xl lg:pe-12 text-gray-800 "
           }
         >
           Transform your brand
         </h2>
-        <p className="text-[hsl(210,4%,67%)]">
+        <p className="text-[hsl(210,4%,67%)] max-lg:text-sm  ">
           We are a full-service creative agency specializing in helping brands
           grow fast. Engage your clients through compelling visuals that do most
           of the marketing for you.
         </p>
         <a
           href="#"
-          className={fraunces.className + " font-extrabold  under-yellow w-40"}
+          className={
+            fraunces.className +
+            " font-extrabold max-lg:self-center under-yellow w-40"
+          }
         >
           LEARN MORE
         </a>
       </div>
-      <div className="max-sm:row-start-1 max-sm:row-end-2">
-        <Image
-          src="/mobile/image-transform.jpg"
-          width={750 / 2}
-          height={624 / 2}
-          alt="vohue"
-          className="sm:hidden "
-        />
+      <div className="">
         <Image
           src="/desktop/image-transform.jpg"
           width={720}
           height={600}
           alt="vohue"
-          className="max-sm:hidden "
+          className="max-lg:hidden "
         />
       </div>
       <div>
@@ -55,7 +61,7 @@ export default function Content({ barlow, fraunces }: any) {
           className="lg:hidden "
         />
       </div>
-      <div className="max-sm:w-[375px] flex flex-col gap-12 pt-44  ps-32 me-28 tracking-wider ">
+      <div className="max-sm:w-[375px] flex flex-col gap-10 lg:gap-12 max-lg:py-16 lg:pt-44 px-6 lg:px-20 lg:ms-20 tracking-wider max-lg:text-center  ">
         <h2
           className={
             fraunces.className + " font-extrabold text-4xl pe-12 text-gray-800 "
