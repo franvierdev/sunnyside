@@ -10,12 +10,23 @@
 .under-yellow:before {
   content: "";
   position: absolute;
-  bottom: -1px;
+  bottom: -4px;
   left: -5px;
   width: 0px;
   transition: all 0.5s;
-  height: 6px;
+  height: 10px;
   background-color: hsl(51, 100%, 49%);
+  border-radius: 5px;
+}
+.under-yellow:after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: -5px;
+  width: 150px;
+
+  height: 10px;
+  background-color: hsla(51, 100%, 49%, 0.261);
   border-radius: 5px;
 }
 .under-yellow:hover::before {
@@ -31,14 +42,27 @@
 .under-red:before {
   content: "";
   position: absolute;
-  bottom: -1px;
+  bottom: -4px;
   left: -5px;
   width: 0px;
   transition: all 0.5s;
-  height: 6px;
+  height: 10px;
   background-color: hsl(7, 99%, 70%);
   border-radius: 5px;
 }
+
+.under-red:after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: -5px;
+  width: 150px;
+
+  height: 10px;
+  background-color: hsla(7, 99%, 70%, 0.261);
+  border-radius: 5px;
+}
+
 .under-red:hover::before {
   width: 150px;
 }
