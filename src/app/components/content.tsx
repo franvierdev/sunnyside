@@ -105,7 +105,7 @@ export default function Content({ barlow, fraunces }: any) {
           <h3 className={fraunces.className + " text-3xl font-extrabold"}>
             Graphic Design
           </h3>
-          <p className={barlow.className + " font-semibold"}>
+          <p className={barlow.className + " tracking-tight max-lg:px-4"}>
             Great design makes you memorable. We deliver artwork that
             underscores your brand message and captures potential clients&apos;
             attention.
@@ -131,7 +131,7 @@ export default function Content({ barlow, fraunces }: any) {
           <h3 className={fraunces.className + " text-3xl font-extrabold"}>
             Photography
           </h3>
-          <p className={barlow.className + " font-semibold max-lg:px-2"}>
+          <p className={barlow.className + " tracking-tight max-lg:px-4"}>
             Increase you credibility by getting the most stunning. high-quality
             photos that improve your business image.
           </p>
