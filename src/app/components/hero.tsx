@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Hero({ fraunces }: any) {
   return (
-    <section className={" max-lg:w-[375px] text-center -z-10"}>
+    <section className={" max-lg:w-[375px] max-lg:pt-20 text-center -z-10 "}>
       <Image
         src="/desktop/image-header.jpg"
         width={2880 / 2}
