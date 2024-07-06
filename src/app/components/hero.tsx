@@ -17,7 +17,7 @@ export default function Hero({ fraunces }: any) {
         alt="reference"
         className="lg:hidden h-screen object-cover"
       />
-      <div className=" top-36 lg:top-52 w-[375px] lg:w-[1440px] absolute font-extrabold text-white  max-lg:text-4xl lg:text-6xl tracking-[0.2em]  ">
+      <div className=" top-44 lg:top-52 w-[375px] lg:w-[1440px] absolute font-extrabold text-white  max-lg:text-4xl lg:text-6xl tracking-[0.2em]  ">
         <h1 className={fraunces.className}>WE ARE CREATIVES</h1>
         <Image
           src="/icon-arrow-down.svg"
