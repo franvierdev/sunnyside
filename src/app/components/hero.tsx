@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Hero({ fraunces }: any) {
   return (
-    <section className={" max-lg:w-[375px] max-lg:pt-20 text-center -z-10 "}>
+    <section className={" max-lg:w-[375px]  text-center -z-10 "}>
       <Image
         src="/desktop/image-header.jpg"
         width={2880 / 2}
@@ -12,8 +12,8 @@ export default function Hero({ fraunces }: any) {
       />
       <Image
         src="/mobile/image-header.jpg"
-        width={750 / 2}
-        height={1076 / 2}
+        width={750}
+        height={1076}
         alt="reference"
         className="lg:hidden h-screen"
       />
