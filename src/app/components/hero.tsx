@@ -13,9 +13,9 @@ export default function Hero({ fraunces }: any) {
       <Image
         src="/mobile/image-header.jpg"
         width={750}
-        height={1076}
+        height="0"
         alt="reference"
-        className="lg:hidden h-screen overflow-hidden"
+        className="lg:hidden h-full overflow-hidden"
       />
       <div className=" top-36 lg:top-52 w-[375px] lg:w-[1440px] absolute font-extrabold text-white  max-lg:text-4xl lg:text-6xl tracking-[0.2em]  ">
         <h1 className={fraunces.className}>WE ARE CREATIVES</h1>
