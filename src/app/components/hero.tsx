@@ -15,7 +15,7 @@ export default function Hero({ fraunces }: any) {
         width={750}
         height="0"
         alt="reference"
-        className="lg:hidden h-full overflow-hidden"
+        className="lg:hidden h-screen object-cover"
       />
       <div className=" top-36 lg:top-52 w-[375px] lg:w-[1440px] absolute font-extrabold text-white  max-lg:text-4xl lg:text-6xl tracking-[0.2em]  ">
         <h1 className={fraunces.className}>WE ARE CREATIVES</h1>
