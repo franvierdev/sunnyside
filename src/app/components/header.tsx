@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 import { useState } from "react";
 
 export default function Header({ barlow, fraunces }: any) {
@@ -66,9 +67,15 @@ export default function Header({ barlow, fraunces }: any) {
                 ` flex flex-col absolute top-28 gap-8 p-8 text-center bg-white w-[85%] ms-[7.5%] text-[hsl(213,9%,39%)] text-lg lg:hidden`
           }
         >
-          <a href="#">About</a>
-          <a href="#">Services</a>
-          <a href="#">Projects</a>
+          <Link href="#Testimonials" onClick={ct}>
+            About
+          </Link>
+          <a href="#" onClick={ct}>
+            Services
+          </a>
+          <a href="#" onClick={ct}>
+            Projects
+          </a>
           <a
             href="#"
             className={
