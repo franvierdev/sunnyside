@@ -23,14 +23,14 @@
   position: absolute;
   bottom: -4px;
   left: -5px;
-  width: 150px;
+  width: 170px;
 
   height: 10px;
   background-color: hsla(51, 100%, 49%, 0.261);
   border-radius: 5px;
 }
 .under-yellow:hover::before {
-  width: 150px;
+  width: 170px;
 }
 .under-red {
   position: relative;
@@ -56,7 +56,7 @@
   position: absolute;
   bottom: -4px;
   left: -5px;
-  width: 150px;
+  width: 170px;
 
   height: 10px;
   background-color: hsla(7, 99%, 70%, 0.261);
@@ -64,5 +64,5 @@
 }
 
 .under-red:hover::before {
-  width: 150px;
+  width: 170px;
 }

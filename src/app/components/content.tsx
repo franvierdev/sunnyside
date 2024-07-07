@@ -30,7 +30,7 @@ export default function Content({ barlow, fraunces }: any) {
           href="#"
           className={
             fraunces.className +
-            " font-extrabold max-lg:self-center under-yellow w-40"
+            " font-extrabold max-lg:self-center  under-yellow w-40"
           }
         >
           LEARN MORE
