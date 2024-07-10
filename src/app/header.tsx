@@ -1,9 +1,10 @@
 "use client";
+import { Fraunces } from "next/font/google";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 
-export default function Header() {
+export default function Header({ barlow, fraunces }: any) {
   let [open, setOpen] = useState(false);
 
   const ct = () => {
@@ -61,22 +62,25 @@ export default function Header() {
         <nav
           className={
             open === false
-              ? ` flex gap-x-14 text-lg text-gray-200 self-center me-4 max-lg:hidden`
-              : ` flex flex-col absolute top-28 gap-8 p-8 text-center bg-white w-[85%] ms-[7.5%] text-[hsl(213,9%,39%)] text-lg lg:hidden  `
+              ? barlow.className +
+                ` flex gap-x-14 text-lg text-gray-200 self-center me-4 max-lg:hidden`
+              : barlow.className +
+                ` flex flex-col absolute top-28 gap-8 p-8 text-center bg-white w-[85%] ms-[7.5%] text-[hsl(213,9%,39%)] text-lg lg:hidden  `
           }
         >
           <Link href="#footer" onClick={ct}>
             About
           </Link>
-          <a href="#content" onClick={ct}>
+          <Link href="#content" onClick={ct}>
             Services
-          </a>
-          <a href="#gallery" onClick={ct}>
+          </Link>
+          <Link href="#gallery" onClick={ct}>
             Projects
-          </a>
+          </Link>
           <a
             href="#"
             className={
+              fraunces.className +
               " font-semibold text-gray-700 max-lg:bg-[hsl(51,100%,49%)] lg:bg-white py-4 max-lg:mx-auto px-6 rounded-full lg:-mt-4 hover:bg-white/40 hover:text-white  duration-300"
             }
           >
