@@ -1,4 +1,4 @@
-import Header from "./components/header";
+import Header from "./header";
 import Hero from "./components/hero";
 import Content from "./components/content";
 import Testimonials from "./components/testimonials";
@@ -14,13 +14,20 @@ const fraunces = Fraunces({
 
 export default function Home() {
   return (
-    <main className="  max-lg:w-[375px] lg:max-w-[1440px] mx-auto">
-      <Header fraunces={fraunces} barlow={barlow} />
+    <main className="  max-lg:w-[375px]">
       <Hero fraunces={fraunces} />
-      <Content fraunces={fraunces} barlow={barlow} />
-      <Testimonials fraunces={fraunces} barlow={barlow} />
-      <Gallery />
-      <Footer fraunces={fraunces} barlow={barlow} />
+      <section id="content" className="">
+        <Content fraunces={fraunces} barlow={barlow} />
+      </section>
+      <section id="testimonials">
+        <Testimonials fraunces={fraunces} barlow={barlow} />
+      </section>
+      <section id="gallery">
+        <Gallery />
+      </section>
+      <section id="footer">
+        <Footer fraunces={fraunces} barlow={barlow} />
+      </section>
     </main>
   );
 }
