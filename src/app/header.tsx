@@ -19,7 +19,7 @@ export default function Header({ barlow, fraunces }: any) {
       <div className="fixed flex justify-between max-lg:py-8  lg:p-10 lg:pt-12 max-lg:w-[375px] lg:w-[1440px] bg-[#3DBEFD]">
         <Image
           src="/logo.svg"
-          width={220}
+          width={240}
           height={44}
           alt="Picture of the author"
           className="max-lg:w-1/2 ps-6"
